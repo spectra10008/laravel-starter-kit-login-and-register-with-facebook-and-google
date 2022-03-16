@@ -6,7 +6,8 @@ Usage steps:-
 
 - open your cmd 
 - write command : git clone --branch master https://github.com/spatie/laravel-webhook-server.git
-- after clone app , cd to your project folder and write command : composer update 
+- after clone app , cd to your project folder and write command : composer update , npm install & npm run dev.
+- after composer update , run command : npm install & npm run dev.
 - create your database 
 - rename .env.example file to .env 
 - update database DB_DATABASE name and DB_USERNAME your username and DB_PASSWORD your db user password .
